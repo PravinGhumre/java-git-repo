@@ -1,0 +1,11 @@
+2017-06-21 19:04:46,908 [main] ERROR Application - I am inside Application main method !!!
+2017-06-21 19:06:08,412 [main] TRACE classes.Application - I am inside Application main method !!!
+2017-06-21 19:06:08,412 [main] DEBUG classes.Application - I am inside Application main method !!!
+2017-06-21 19:06:08,412 [main] INFO classes.Application - I am inside Application main method !!!
+2017-06-21 19:06:08,412 [main] WARN classes.Application - I am inside Application main method !!!
+2017-06-21 19:06:08,412 [main] ERROR classes.Application - I am inside Application main method !!!
+2017-06-21 19:07:34,413 [main] TRACE classes.Application - I am inside Maven pplication main method !!!
+2017-06-21 19:07:34,428 [main] DEBUG classes.Application - I am inside Maven pplication main method !!!
+2017-06-21 19:07:34,428 [main] INFO classes.Application - I am inside Maven pplication main method !!!
+2017-06-21 19:07:34,428 [main] WARN classes.Application - I am inside Maven pplication main method !!!
+2017-06-21 19:07:34,428 [main] ERROR classes.Application - I am inside Maven pplication main method !!!

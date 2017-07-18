@@ -1,0 +1,11 @@
+19:04:46,908 ERROR Application:15 - I am inside Application main method !!!
+19:06:08,412 TRACE Application:12 - I am inside Application main method !!!
+19:06:08,412 DEBUG Application:13 - I am inside Application main method !!!
+19:06:08,412  INFO Application:14 - I am inside Application main method !!!
+19:06:08,412  WARN Application:15 - I am inside Application main method !!!
+19:06:08,412 ERROR Application:16 - I am inside Application main method !!!
+19:07:34,413 TRACE Application:11 - I am inside Maven pplication main method !!!
+19:07:34,428 DEBUG Application:12 - I am inside Maven pplication main method !!!
+19:07:34,428  INFO Application:13 - I am inside Maven pplication main method !!!
+19:07:34,428  WARN Application:14 - I am inside Maven pplication main method !!!
+19:07:34,428 ERROR Application:15 - I am inside Maven pplication main method !!!

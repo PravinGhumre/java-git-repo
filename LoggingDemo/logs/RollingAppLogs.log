@@ -1,0 +1,5 @@
+2017-06-21 19:07:47,270 [main] TRACE classes.Application - I am inside Application main method !!!
+2017-06-21 19:07:47,286 [main] DEBUG classes.Application - I am inside Application main method !!!
+2017-06-21 19:07:47,286 [main] INFO classes.Application - I am inside Application main method !!!
+2017-06-21 19:07:47,286 [main] WARN classes.Application - I am inside Application main method !!!
+2017-06-21 19:07:47,286 [main] ERROR classes.Application - I am inside Application main method !!!

@@ -1,0 +1,5 @@
+19:07:47,270 TRACE Application:11 - I am inside Application main method !!!
+19:07:47,286 DEBUG Application:12 - I am inside Application main method !!!
+19:07:47,286  INFO Application:13 - I am inside Application main method !!!
+19:07:47,286  WARN Application:14 - I am inside Application main method !!!
+19:07:47,286 ERROR Application:15 - I am inside Application main method !!!
