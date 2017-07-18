@@ -1,5 +1,9 @@
 package com.spring.beans;
 
+/**
+ * @author Admin
+ *
+ */
 public class Employee {
 
 	private int id;
