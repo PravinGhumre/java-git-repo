@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans    
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd    
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.0.xsd"
+	default-init-method="defaultInit" default-destroy-method="defaultDestroy">
+
+
+	<bean id="circle" class="com.practice.spring.Circle" init-method="myInit"
+		destroy-method="myDestroy">
+		<property name="center">
+			<bean id="center" class="com.practice.spring.Point">
+				<constructor-arg value="0" type="int" />
+				<constructor-arg value="0" type="int" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean class="org.springframework.context.support.ResourceBundleMessageSource"
+		id="messageSource">
+		<property name="basenames" value="classpath:com/practice/spring/messages"/>
+	</bean>
+	
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>messages.properties</value>
+		</property>
+	</bean>
+	
+
+	<!-- <bean class="com.practice.spring.DisplayNameBeanPostProcessor"/> -->
+	<!-- <bean class="com.practice.spring.MyBeanFactoryPostProcessor"/> -->
+
+	<context:annotation-config></context:annotation-config>
+	<context:component-scan base-package="com.practice.spring" />
+
+	<!-- <bean id="shapeCollection" class="com.practice.spring.ShapeCollection"> 
+		<property name="shapeOfList"> <list> <value>Triangle</value> <value>Circle</value> 
+		<value>Rectangle</value> <value>Square</value> </list> </property> <property 
+		name="shapeOfSet"> <set> <value>Triangle</value> <value>Circle</value> <value>Rectangle</value> 
+		<value>Square</value> </set> </property> <property name="shapeOfMap"> <map> 
+		<entry key="1" value="Triangle" /> <entry key="2" value="Circle" /> <entry 
+		key="3" value="Rectangle" /> <entry key="4" value="Square" /> </map> </property> 
+		<property name="shapeOfProperties"> <props> <prop key="triangle">Triangle</prop> 
+		<prop key="circle">Circle</prop> <prop key="rectangle">Rectangle</prop> <prop 
+		key="sqare">Square</prop> </props> </property> </bean> -->
+
+</beans>
