@@ -1,0 +1,23 @@
+INDEX VERSION 1.126
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2024482865.index
+\springjpaexample\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2230772302.index
+\SpringExceptionHandling\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1344688558.index
+\SpringExceptionHandling\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3007633724.index
+\in28Minutes-first-webapp\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2895987821.index
+\SpringMVCCRUD\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2947485099.index
+\springjpaexample\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1673126620.index
+\springjpaexample\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1340118622.index
+\Springi18nExample\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3875675957.index
+\springjpaexample\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2132855801.index
+\in28Minutes-first-webapp\src\main\java
+C:\Users\Admin\git\pravinghumre-git-repo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2677703303.index
+\SpringMVCCRUD\src\main\java
