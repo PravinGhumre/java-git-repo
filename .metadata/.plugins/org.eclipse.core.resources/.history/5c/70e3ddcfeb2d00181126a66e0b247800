@@ -1,0 +1,33 @@
+package com.test.concepts.coding;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class CodingTest {
+
+	public static String encode(int offset, String original) {
+		Character [] chars = new Character [] { 'a', 'b', 'c', 'd', 'e', 'f', 'g',
+				'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
+				's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+		List<Character> listOfLetters = new ArrayList<>(
+				Arrays.asList(chars));
+		if (null != original & !original.isEmpty()) {
+			if (1 == offset) {
+				for (int i = 0; i < original.length(); i++) {
+					for (Character value : listOfLetters) {
+						value.equalsIgnoreCase(original.charAt(i))
+					}
+				}
+
+			} else if (-1 == offset) {
+
+			}
+		}
+		return original;
+	}
+
+	public static void main(String[] args) {
+		CodingTest.encode(1, "abaabbbccaabbbabc");
+	}
+}

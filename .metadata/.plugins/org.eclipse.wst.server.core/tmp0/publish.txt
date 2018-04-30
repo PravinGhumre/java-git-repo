@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Apr 29 22:07:33 IST 2018
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Admin\\.m2\\repository\\org\\springframework\\spring-web\\4.2.2.RELEASE\\spring-web-4.2.2.RELEASE.jar=D\:\\apache-tomcat-7.0.82\\wtpwebapps\\in28Minutes-first-webapp\\WEB-INF\\lib\\spring-web-4.2.2.RELEASE.jar
+org.eclipse.jst.jee.server\:in28Minutes-first-webapp=D\:\\apache-tomcat-7.0.82\\wtpwebapps\\in28Minutes-first-webapp

@@ -1,0 +1,13 @@
+package com.test.concepts.coding;
+
+public class CodingTest {
+
+	public static String encode(int offset, String original) {
+
+		return "";
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

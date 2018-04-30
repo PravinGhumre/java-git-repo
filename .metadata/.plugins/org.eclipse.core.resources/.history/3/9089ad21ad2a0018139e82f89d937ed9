@@ -1,0 +1,31 @@
+package com.test.concepts.immutableclass;
+
+import java.time.LocalDate;
+
+public class ImmutableClass {
+
+	public static void main(String[] args) {
+		LocalDate dob = LocalDate.of(2014, 05, 01);
+		ImmutableClass ic = new ImmutableClass("Pranjal", dob);
+		System.out.println(ic.getName());
+		System.out.println(ic.getDateOfBirth());
+	}
+
+	private String name;
+	private LocalDate dateOfBirth;
+
+	public ImmutableClass(String name, LocalDate dateOfBirth) {
+		super();
+		this.name = name;
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public LocalDate getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+}

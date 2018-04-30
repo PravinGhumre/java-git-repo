@@ -1,0 +1,5 @@
+package com.test.concepts.immutableclass;
+
+public class ImmutableClass {
+
+}

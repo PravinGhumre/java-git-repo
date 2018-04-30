@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="springjpaexample"/>
+<aop-project name="in28Minutes-first-webapp"/>
 <aop-project name="SpringBeanAutowiring"/>
-<aop-project name="SpringDemo"/>
-<aop-project name="SpringExceptionHandling"/>
-<aop-project name="SpringMVCCRUD"/>
+<aop-project name="Spring4Rest"/>
 <aop-project name="Springi18nExample"/>
+<aop-project name="SpringDemo"/>
+<aop-project name="JPAMavenExample"/>
+<aop-project name="SpringMVCCRUD"/>
+<aop-project name="SpringExceptionHandling"/>
 </aop-reference-model>
